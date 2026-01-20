@@ -9,7 +9,7 @@
  */
 async function loadConfig() {
     try {
-        const response = await fetch('data/config.json');
+        const response = await fetch('data/months/config.json');
         if (!response.ok) {
             throw new Error('Failed to load config.json');
         }
