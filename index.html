@@ -3,53 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mask Tasker - Monthly Challenge Game</title>
+    <title>Mask Tasker</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>🎭 Mask Tasker</h1>
-            <p>The Ultimate Monthly Challenge Game</p>
+    <!-- Title / Splash Screen -->
+    <div id="title-screen" class="title-screen">
+        <div class="title-content">
+            <img src="Mask tasker Title.jpg" alt="Mask Tasker" class="title-image">
+            <button id="enter-site-btn" class="enter-site-btn">Continue to Site</button>
         </div>
-    </header>
+    </div>
 
-    <nav>
-        <ul>
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="results.html">Results</a></li>
-        </ul>
-    </nav>
+    <!-- Main Site (hidden initially) -->
+    <div id="main-site" class="main-site" style="display: none;">
+        <header>
+            <div class="container">
+                <h1>🎭 Mask Tasker</h1>
+            </div>
+        </header>
 
-    <main>
-        <div class="container">
-            <section class="hero">
-                <h2>Welcome to Mask Tasker!</h2>
-                <p>
-                    Mask Tasker is the world's most punctual competition. Not even hospitals have as much patience as your average Mask Tasker competitor. However, we have now exited the atmosphere - and waitlessness is upon you.
-                </p>
-                <p>
-                    Welcome to the results.
-                </p>
-            </section>
+        <nav id="main-nav">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+            </ul>
+        </nav>
 
-            <section>
-                <h2 style="text-align: center; margin-bottom: 2rem; color: var(--primary-color);">Monthly Challenges</h2>
-                <div id="months-container" class="months-grid">
-                    <div class="loading">Loading months</div>
-                </div>
-            </section>
-        </div>
-    </main>
+        <main>
+            <div class="container">
+                <section class="hero">
+                    <h2>Welcome to Mask Tasker!</h2>
+                    <p>
+                        Mask Tasker is the world's most punctual competition. Not even hospitals have as much patience as your average Mask Tasker competitor. However, we have now exited the atmosphere - and waitlessness is upon you.
+                    </p>
+                    <p>
+                        Welcome to the results.
+                    </p>
+                </section>
 
-    <footer>
-        <p>&copy; 2024 Mask Tasker. All rights reserved.</p>
-    </footer>
+                <section>
+                    <h2 style="text-align: center; margin-bottom: 2rem; color: var(--primary-color);">Monthly Challenges</h2>
+                    <div id="months-container" class="months-grid">
+                        <div class="loading">Loading months</div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Mask Tasker. All rights reserved.</p>
+        </footer>
+    </div>
 
     <script src="js/main.js"></script>
     <script>
+        // Title screen logic
+        document.getElementById('enter-site-btn').addEventListener('click', function() {
+            document.getElementById('title-screen').style.display = 'none';
+            document.getElementById('main-site').style.display = 'block';
+        });
+
         // Load and display months on home page
         loadConfig().then(config => {
+            // Build navigation with months then Results
+            const navList = document.querySelector('#main-nav ul');
+            config.months.forEach(month => {
+                const li = document.createElement('li');
+                const a = document.createElement('a');
+                a.href = `month.html?id=${month.id}`;
+                a.textContent = month.title;
+                li.appendChild(a);
+                navList.appendChild(li);
+            });
+            // Add Results at the end
+            const resultsLi = document.createElement('li');
+            const resultsA = document.createElement('a');
+            resultsA.href = 'results.html';
+            resultsA.textContent = 'Results';
+            resultsLi.appendChild(resultsA);
+            navList.appendChild(resultsLi);
+
             const container = document.getElementById('months-container');
 
             if (!config.months || config.months.length === 0) {

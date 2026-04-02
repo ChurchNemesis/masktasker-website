@@ -10,14 +10,12 @@
     <header>
         <div class="container">
             <h1>🎭 Mask Tasker</h1>
-            <p>The Ultimate Monthly Challenge Game</p>
         </div>
     </header>
 
     <nav id="main-nav">
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="results.html">Results</a></li>
         </ul>
     </nav>
 
@@ -86,6 +84,14 @@
                 li.appendChild(a);
                 navList.appendChild(li);
             });
+
+            // Add Results at the end
+            const resultsLi = document.createElement('li');
+            const resultsA = document.createElement('a');
+            resultsA.href = 'results.html';
+            resultsA.textContent = 'Results';
+            resultsLi.appendChild(resultsA);
+            navList.appendChild(resultsLi);
         }
 
         function displayMonthData(data) {
