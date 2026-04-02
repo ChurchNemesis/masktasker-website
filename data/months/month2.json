@@ -7,37 +7,37 @@
     {
       "teamName": "Cogan, Connal and Justin",
       "score": 5,
-      "description": "Add description here and upload video to videos/months/month2/",
+      "description": "Add description here",
       "images": [],
-      "videos": []
+      "videos": ["videos/months/month2/scj-catch.mp4"]
     },
     {
       "teamName": "Steph and Stocky",
       "score": 5,
       "description": "Add description here",
       "images": [],
-      "videos": ["videos/months/month2/stophy-splash.mp4"]
+      "videos": ["videos/months/month2/stophy-catch.mp4"]
     },
     {
       "teamName": "Jess, George, Alessia and Steph",
       "score": 4,
       "description": "Add description here",
       "images": [],
-      "videos": ["videos/months/month2/jg-splash.mp4"]
+      "videos": ["videos/months/month2/jsga-catch.mp4"]
     },
     {
       "teamName": "Mitya and Rachel",
       "score": 2,
       "description": "Add description here",
       "images": [],
-      "videos": ["videos/months/month2/machel-splash.mp4"]
+      "videos": ["videos/months/month2/machel-catch.mp4"]
     },
     {
       "teamName": "Fi and Alfie",
       "score": 2,
-      "description": "Add description here and upload video to videos/months/month2/",
+      "description": "Add description here",
       "images": [],
-      "videos": []
+      "videos": ["videos/months/month2/fiona-alf-catch.mp4"]
     },
     {
       "teamName": "Luke and Lauren",
