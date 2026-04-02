@@ -7,43 +7,43 @@
     {
       "teamName": "Mitya and Rachel",
       "score": 5,
-      "description": "Add description here and upload images to images/months/month3/",
-      "images": [],
+      "description": "Add description here",
+      "images": ["images/months/month3/machel-face.jpeg", "images/months/month3/machel-face-2.jpeg"],
       "videos": []
     },
     {
       "teamName": "Steph and Stocky",
       "score": 4,
-      "description": "Add description here and upload images to images/months/month3/",
+      "description": "Add description here",
       "images": [],
-      "videos": []
+      "videos": ["videos/months/month3/stophy-face.mp4"]
     },
     {
       "teamName": "Maddie, Maddy, Calum and Jemima",
       "score": 4,
-      "description": "Add description here and upload images to images/months/month3/",
-      "images": [],
-      "videos": []
+      "description": "Add description here",
+      "images": ["images/months/month3/mmjc-face-2.jpeg"],
+      "videos": ["videos/months/month3/mmjc-face.mp4"]
     },
     {
       "teamName": "Cogan, Connal and Justin",
       "score": 3,
-      "description": "Add description here and upload images to images/months/month3/",
-      "images": [],
-      "videos": []
+      "description": "Add description here",
+      "images": ["images/months/month3/scj-face-2.jpeg", "images/months/month3/scj-face-3.jpeg"],
+      "videos": ["videos/months/month3/scj-face.mp4"]
     },
     {
       "teamName": "Fi and Alfie",
       "score": 2,
-      "description": "Add description here and upload images to images/months/month3/",
-      "images": [],
+      "description": "Add description here",
+      "images": ["images/months/month3/fiona-alf-face.jpeg"],
       "videos": []
     },
     {
       "teamName": "Jess, George, Alessia and Steph",
       "score": 2,
-      "description": "Add description here and upload images to images/months/month3/",
-      "images": [],
+      "description": "Add description here",
+      "images": ["images/months/month3/jgsa-face.jpeg"],
       "videos": []
     },
     {
