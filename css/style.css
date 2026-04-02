@@ -426,6 +426,55 @@ footer {
     color: #bbb;
 }
 
+/* Title / Splash Screen */
+.title-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2000;
+}
+
+.title-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.title-image {
+    max-width: 500px;
+    width: 90vw;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 40px rgba(139, 92, 246, 0.5), 0 0 80px rgba(255, 215, 0, 0.2);
+}
+
+.enter-site-btn {
+    background: linear-gradient(135deg, var(--secondary-color) 0%, var(--accent-color) 100%);
+    color: var(--dark-bg);
+    border: none;
+    padding: 1rem 3rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.4);
+    letter-spacing: 1px;
+}
+
+.enter-site-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px rgba(255, 215, 0, 0.6), 0 0 60px rgba(139, 92, 246, 0.3);
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     header h1 {

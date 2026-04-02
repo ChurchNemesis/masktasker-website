@@ -5,6 +5,27 @@
   "taskDescription": "Make a splash! Best splash wins.",
   "submissions": [
     {
+      "teamName": "Steph and Stocky",
+      "score": 3,
+      "description": "",
+      "images": [],
+      "videos": ["videos/months/month4/stophy-splash.mp4"]
+    },
+    {
+      "teamName": "Jess, George, Alessia and Steph",
+      "score": 3,
+      "description": "",
+      "images": [],
+      "videos": ["videos/months/month4/jg-splash.mp4"]
+    },
+    {
+      "teamName": "Maddie, Maddy, Calum and Jemima",
+      "score": 3,
+      "description": "",
+      "images": ["images/months/month4/mmjc-splash.jpg"],
+      "videos": []
+    },
+    {
       "teamName": "Mitya and Rachel",
       "score": 2,
       "description": "",
@@ -33,31 +54,10 @@
       "videos": []
     },
     {
-      "teamName": "Steph and Stocky",
-      "score": 3,
-      "description": "",
-      "images": [],
-      "videos": ["videos/months/month4/stophy-splash.mp4"]
-    },
-    {
       "teamName": "Fi and Alfie",
       "score": 0,
       "description": "",
       "images": [],
-      "videos": []
-    },
-    {
-      "teamName": "Jess, George, Alessia and Steph",
-      "score": 3,
-      "description": "",
-      "images": [],
-      "videos": ["videos/months/month4/jg-splash.mp4"]
-    },
-    {
-      "teamName": "Maddie, Maddy, Calum and Jemima",
-      "score": 3,
-      "description": "",
-      "images": ["images/months/month4/mmjc-splash.jpg"],
       "videos": []
     },
     {

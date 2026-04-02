@@ -5,13 +5,6 @@
   "taskDescription": "Do the most surprising thing with a single sheet of paper. You have until the end of the month. Not long now. Tick tock.",
   "submissions": [
     {
-      "teamName": "Mitya and Rachel",
-      "score": 0,
-      "description": "",
-      "images": [],
-      "videos": []
-    },
-    {
       "teamName": "Luke and Lauren",
       "score": 4,
       "description": "",
@@ -26,11 +19,11 @@
       "videos": ["videos/months/month5/scj-paper.mp4"]
     },
     {
-      "teamName": "Bex and Hector",
-      "score": 0,
+      "teamName": "Maddie, Maddy, Calum and Jemima",
+      "score": 3,
       "description": "",
       "images": [],
-      "videos": []
+      "videos": ["videos/months/month5/mmjc-paper.mp4"]
     },
     {
       "teamName": "Steph and Stocky",
@@ -40,13 +33,6 @@
       "videos": ["videos/months/month5/stophy-paper.mp4"]
     },
     {
-      "teamName": "Fi and Alfie",
-      "score": 0,
-      "description": "",
-      "images": [],
-      "videos": []
-    },
-    {
       "teamName": "Jess, George, Alessia and Steph",
       "score": 1,
       "description": "",
@@ -54,11 +40,25 @@
       "videos": ["videos/months/month5/jgsa-paper.mp4"]
     },
     {
-      "teamName": "Maddie, Maddy, Calum and Jemima",
-      "score": 3,
+      "teamName": "Mitya and Rachel",
+      "score": 0,
       "description": "",
       "images": [],
-      "videos": ["videos/months/month5/mmjc-paper.mp4"]
+      "videos": []
+    },
+    {
+      "teamName": "Bex and Hector",
+      "score": 0,
+      "description": "",
+      "images": [],
+      "videos": []
+    },
+    {
+      "teamName": "Fi and Alfie",
+      "score": 0,
+      "description": "",
+      "images": [],
+      "videos": []
     },
     {
       "teamName": "Conor, Ben and Ellie",

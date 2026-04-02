@@ -5,6 +5,27 @@
   "taskDescription": "Using the Strava app, draw the best picture with your route (can be run or walked or crawled or swam). Points will be awarded for recognisable images, size of picture and abstract beauty.",
   "submissions": [
     {
+      "teamName": "Jess, George, Alessia and Steph",
+      "score": 5,
+      "description": "",
+      "images": ["images/months/month6/jgsa-map.jpeg"],
+      "videos": []
+    },
+    {
+      "teamName": "Cogan, Connal and Justin",
+      "score": 2,
+      "description": "",
+      "images": ["images/months/month6/scj-map-1.jpeg", "images/months/month6/scj-map-2.jpeg"],
+      "videos": []
+    },
+    {
+      "teamName": "Steph and Stocky",
+      "score": 2,
+      "description": "",
+      "images": ["images/months/month6/stophy-map.jpeg"],
+      "videos": []
+    },
+    {
       "teamName": "Mitya and Rachel",
       "score": 0,
       "description": "",
@@ -19,13 +40,6 @@
       "videos": []
     },
     {
-      "teamName": "Cogan, Connal and Justin",
-      "score": 3.5,
-      "description": "",
-      "images": [],
-      "videos": []
-    },
-    {
       "teamName": "Bex and Hector",
       "score": 0,
       "description": "",
@@ -33,22 +47,8 @@
       "videos": []
     },
     {
-      "teamName": "Steph and Stocky",
-      "score": 2,
-      "description": "",
-      "images": [],
-      "videos": []
-    },
-    {
       "teamName": "Fi and Alfie",
       "score": 0,
-      "description": "",
-      "images": [],
-      "videos": []
-    },
-    {
-      "teamName": "Jess, George, Alessia and Steph",
-      "score": 5,
       "description": "",
       "images": [],
       "videos": []
