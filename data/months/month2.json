@@ -14,23 +14,23 @@
     {
       "teamName": "Steph and Stocky",
       "score": 5,
-      "description": "Add description here and upload video to videos/months/month2/",
+      "description": "Add description here",
       "images": [],
-      "videos": []
+      "videos": ["videos/months/month2/stophy-splash.mp4"]
     },
     {
       "teamName": "Jess, George, Alessia and Steph",
       "score": 4,
-      "description": "Add description here and upload video to videos/months/month2/",
+      "description": "Add description here",
       "images": [],
-      "videos": []
+      "videos": ["videos/months/month2/jg-splash.mp4"]
     },
     {
       "teamName": "Mitya and Rachel",
       "score": 2,
-      "description": "Add description here and upload video to videos/months/month2/",
+      "description": "Add description here",
       "images": [],
-      "videos": []
+      "videos": ["videos/months/month2/machel-splash.mp4"]
     },
     {
       "teamName": "Fi and Alfie",
