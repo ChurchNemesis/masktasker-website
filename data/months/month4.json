@@ -9,20 +9,26 @@
       "score": 3,
       "description": "",
       "images": [],
-      "videos": ["videos/months/month4/stophy-splash.mp4"]
+      "videos": [
+        "videos/months/month4/stophy-splash.mp4"
+      ]
     },
     {
       "teamName": "Jess, George, Alessia and Steph",
       "score": 3,
       "description": "",
       "images": [],
-      "videos": ["videos/months/month4/jg-splash.mp4"]
+      "videos": [
+        "videos/months/month4/jg-splash.mp4"
+      ]
     },
     {
       "teamName": "Maddie, Maddy, Calum and Jemima",
       "score": 3,
       "description": "",
-      "images": ["images/months/month4/mmjc-splash.jpg"],
+      "images": [
+        "images/months/month4/mmjc-splash.jpg"
+      ],
       "videos": []
     },
     {
@@ -30,40 +36,42 @@
       "score": 4,
       "description": "",
       "images": [],
-      "videos": ["videos/months/month4/machel-splash.mp4"]
+      "videos": [
+        "videos/months/month4/machel-splash.mp4"
+      ]
     },
     {
       "teamName": "Luke and Lauren",
       "score": 0,
-      "description": "",
+      "description": "No submission",
       "images": [],
       "videos": []
     },
     {
       "teamName": "Cogan, Connal and Justin",
       "score": 0,
-      "description": "",
+      "description": "No submission",
       "images": [],
       "videos": []
     },
     {
       "teamName": "Bex and Hector",
       "score": 0,
-      "description": "",
+      "description": "No submission",
       "images": [],
       "videos": []
     },
     {
       "teamName": "Fi and Alfie",
       "score": 0,
-      "description": "",
+      "description": "No submission",
       "images": [],
       "videos": []
     },
     {
       "teamName": "Conor, Ben and Ellie",
       "score": 0,
-      "description": "",
+      "description": "No submission",
       "images": [],
       "videos": []
     }

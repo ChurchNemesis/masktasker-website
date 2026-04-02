@@ -8,7 +8,9 @@
       "teamName": "Luke and Lauren",
       "score": 5,
       "description": "",
-      "images": ["images/months/month5/luke-lauren-paper.jpeg"],
+      "images": [
+        "images/months/month5/luke-lauren-paper.jpeg"
+      ],
       "videos": []
     },
     {
@@ -16,54 +18,62 @@
       "score": 4,
       "description": "",
       "images": [],
-      "videos": ["videos/months/month5/scj-paper.mp4"]
+      "videos": [
+        "videos/months/month5/scj-paper.mp4"
+      ]
     },
     {
       "teamName": "Maddie, Maddy, Calum and Jemima",
       "score": 3,
       "description": "",
       "images": [],
-      "videos": ["videos/months/month5/mmjc-paper.mp4"]
+      "videos": [
+        "videos/months/month5/mmjc-paper.mp4"
+      ]
     },
     {
       "teamName": "Steph and Stocky",
       "score": 2,
       "description": "",
       "images": [],
-      "videos": ["videos/months/month5/stophy-paper.mp4"]
+      "videos": [
+        "videos/months/month5/stophy-paper.mp4"
+      ]
     },
     {
       "teamName": "Jess, George, Alessia and Steph",
       "score": 1,
       "description": "",
       "images": [],
-      "videos": ["videos/months/month5/jgsa-paper.mp4"]
+      "videos": [
+        "videos/months/month5/jgsa-paper.mp4"
+      ]
     },
     {
       "teamName": "Mitya and Rachel",
       "score": 0,
-      "description": "",
+      "description": "No submission",
       "images": [],
       "videos": []
     },
     {
       "teamName": "Bex and Hector",
       "score": 0,
-      "description": "",
+      "description": "No submission",
       "images": [],
       "videos": []
     },
     {
       "teamName": "Fi and Alfie",
       "score": 0,
-      "description": "",
+      "description": "No submission",
       "images": [],
       "videos": []
     },
     {
       "teamName": "Conor, Ben and Ellie",
       "score": 0,
-      "description": "",
+      "description": "No submission",
       "images": [],
       "videos": []
     }

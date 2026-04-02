@@ -8,62 +8,70 @@
       "teamName": "Jess, George, Alessia and Steph",
       "score": 5,
       "description": "",
-      "images": ["images/months/month6/jgsa-map.jpeg"],
+      "images": [
+        "images/months/month6/jgsa-map.jpeg"
+      ],
       "videos": []
     },
     {
       "teamName": "Cogan, Connal and Justin",
       "score": 2,
       "description": "",
-      "images": ["images/months/month6/scj-map-1.jpeg", "images/months/month6/scj-map-2.jpeg", "images/months/month6/scj-map-3.jpeg"],
+      "images": [
+        "images/months/month6/scj-map-1.jpeg",
+        "images/months/month6/scj-map-2.jpeg",
+        "images/months/month6/scj-map-3.jpeg"
+      ],
       "videos": []
     },
     {
       "teamName": "Steph and Stocky",
       "score": 2,
       "description": "",
-      "images": ["images/months/month6/stophy-map.jpeg"],
+      "images": [
+        "images/months/month6/stophy-map.jpeg"
+      ],
       "videos": []
     },
     {
       "teamName": "Mitya and Rachel",
       "score": 0,
-      "description": "",
+      "description": "No submission",
       "images": [],
       "videos": []
     },
     {
       "teamName": "Luke and Lauren",
       "score": 0,
-      "description": "",
+      "description": "No submission",
       "images": [],
       "videos": []
     },
     {
       "teamName": "Bex and Hector",
       "score": 0,
-      "description": "",
+      "description": "No submission",
       "images": [],
       "videos": []
     },
     {
       "teamName": "Fi and Alfie",
       "score": 0,
-      "description": "",
+      "description": "No submission",
       "images": [],
       "videos": []
     },
     {
       "teamName": "Maddie, Maddy, Calum and Jemima",
       "score": 0,
-      "description": "",
+      "description": "No submission",
       "images": [],
       "videos": []
     },
     {
       "teamName": "Conor, Ben and Ellie",
       "score": 0,
-      "description": "",
+      "description": "No submission",
       "images": [],
       "videos": []
     }
